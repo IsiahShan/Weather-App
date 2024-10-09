@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+    <body>
+        <div class="card ">
+            <div class="search-bar flex">
+                <input type="text" placeholder="Enter your city" spellcheck="false">
+                <button class="search-btn">
+                    <img class="search-icon" src="Images/search icon.svg" alt="">
+                </button>
+            </div>
+            <div class="error">
+                <p>
+                    Invalid city name
+                </p>
+            </div>
+            <div class="grid">
+                <div class="flex">
+                    <img class="icon-primary" src="Images/sunny.png" alt="">
+                    <div>
+                        <h2 class="temp">90°F</h2>
+                        <p class="city">Troy , OH</p> 
+                    </div>                    
+                </div>
+                <div class="flex">
+                    <img class="icon-secondary" src="Images/wind.png" alt="">
+                    <div>
+                        <h3 class="wind">90 mph</h3>
+                        <p class="wind">Wind</p>  
+                    </div>                    
+                </div>
+                <div class="flex">
+                    <img class="icon-secondary" src="Images/humidity.png" alt="">
+                    <div>
+                        <h3 class="humidity">90%</h3>
+                        <p class="humidity">Humidity</p>  
+                    </div>                    
+                </div>
+            </div>
+        </div>        
+        <script src="script.js" defer></script>
+    </body>
+</html>
